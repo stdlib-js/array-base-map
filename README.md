@@ -52,13 +52,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import map from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-map@esm/index.mjs';
+import map from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-map@v0.1.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-map@esm/index.mjs';
+import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-map@v0.1.1-esm/index.mjs';
 ```
 
 #### map( x, fcn\[, thisArg] )
@@ -176,7 +176,7 @@ The function accepts the following arguments:
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
 import naryFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nary-function@esm/index.mjs';
 import abs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-abs@esm/index.mjs';
-import map from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-map@esm/index.mjs';
+import map from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-map@v0.1.1-esm/index.mjs';
 
 var x = discreteUniform( 10, -10, 10, {
     'dtype': 'float64'
