@@ -52,13 +52,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import map from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-map@deno/mod.js';
+import map from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-map@v0.1.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-map@deno/mod.js';
+import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-map@v0.1.1-deno/mod.js';
 ```
 
 #### map( x, fcn\[, thisArg] )
@@ -171,7 +171,7 @@ The function accepts the following arguments:
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
 import naryFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nary-function@deno/mod.js';
 import abs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-abs@deno/mod.js';
-import map from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-map@deno/mod.js';
+import map from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-map@v0.1.1-deno/mod.js';
 
 var x = discreteUniform( 10, -10, 10, {
     'dtype': 'float64'
